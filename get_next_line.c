@@ -36,7 +36,7 @@ char	*get_next_line(int fd)
 		return (NULL);
 	}
 	return (line);
-}get_next_line_utils
+}
 
 void	read_and_stash(int fd, t_list **stash)
 {
