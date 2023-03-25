@@ -27,5 +27,6 @@ int	main(void)
 			break ;
 		free(line);
 	}
+	system("leaks TEST");
 	return (0);
 }
